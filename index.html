@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arahman Motor - Showroom Motor Bekas Terpercaya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Arahman<span>Motor</span></a>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Katalog</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Temukan Motor Bekas Terbaik dengan Harga Terjangkau</h1>
+            <p>Kami menyediakan berbagai pilihan motor bekas berkualitas dengan proses transaksi yang aman dan terpercaya</p>
+            <a href="#products" class="btn">Jelajahi Katalog</a>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <div class="container">
+        <div class="filter-section">
+            <div class="filter-grid">
+                <div class="filter-group">
+                    <label for="brand">Merek</label>
+                    <select id="brand">
+                        <option value="">Semua Merek</option>
+                        <option value="honda">Honda</option>
+                        <option value="yamaha">Yamaha</option>
+                        <option value="suzuki">Suzuki</option>
+                        <option value="kawasaki">Kawasaki</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="type">Tipe</label>
+                    <select id="type">
+                        <option value="">Semua Tipe</option>
+                        <option value="sport">Sport</option>
+                        <option value="matic">Matic</option>
+                        <option value="bebek">Bebek</option>
+                        <option value="cruiser">Cruiser</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="year">Tahun</label>
+                    <select id="year">
+                        <option value="">Semua Tahun</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="price">Harga Maksimal</label>
+                    <select id="price">
+                        <option value="">Semua Harga</option>
+                        <option value="10000000">Rp 10.000.000</option>
+                        <option value="20000000">Rp 20.000.000</option>
+                        <option value="30000000">Rp 30.000.000</option>
+                        <option value="40000000">Rp 40.000.000</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group filter-btn">
+                    <button class="btn">Cari Motor</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Motor Tersedia</h2>
+                <p>Berbagai pilihan motor bekas berkualitas dengan kondisi terawat dan harga bersaing</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="gsx.jpeg" alt="Suzuki GSX 150">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Suzuki GSX 150</h3>
+                        <p class="product-price">Rp 25.500.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2021</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>8.200 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="pcx.jpeg" alt="Honda PCX">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Honda PCX</h3>
+                        <p class="product-price">Rp 23.800.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2020</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>12.500 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="verza.jpeg" alt="Honda CB Verza">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Honda CB Verza</h3>
+                        <p class="product-price">Rp 22.900.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2019</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>15.300 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="sonic.jpeg" alt="Honda Sonic">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Honda Sonic</h3>
+                        <p class="product-price">Rp 35.750.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2022</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>5.800 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="vario.jpeg" alt="Honda Vario">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Honda Vario</h3>
+                        <p class="product-price">Rp 14.200.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2020</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>18.400 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="gear.jpeg" alt="Yamaha Gear">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Yamaha Gear</h3>
+                        <p class="product-price">Rp 13.500.000</p>
+                        <div class="product-details">
+                            <div class="product-detail">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2021</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-road"></i>
+                                <span>7.600 km</span>
+                            </div>
+                            <div class="product-detail">
+                                <i class="fas fa-gas-pump"></i>
+                                <span>Bensin</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mengapa Memilih Kami?</h2>
+                <p>Kami memberikan pelayanan terbaik untuk memastikan kepuasan pelanggan</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Berkualitas</h3>
+                    <p>Semua motor melalui proses inspeksi ketat untuk memastikan kualitas terbaik</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Terjamin</h3>
+                    <p>Garansi 6 bulan untuk semua motor yang dibeli dari showroom kami</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-tools"></i>
+                    <h3>Service</h3>
+                    <p>Layanan purna jual dan service terbaik dengan teknisi berpengalaman</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Harga kompetitif dengan berbagai pilihan cicilan yang mudah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Replacing Testimonials) -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-title-gallery">
+                <h2>Galeri Serah Terima Unit</h2>
+                <p>Momen kebahagiaan pelanggan kami saat menerima unit motor yang telah dibeli</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1566895733044-2c31b46c52ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW90b3JjeWNsZSUyMGRlbGl2ZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Budi Santoso</h3>
+                        <p class="gallery-desc">Serah terima Honda PCX 2020</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621891335576-3dfb452048af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdG9yY3ljbGUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Dewi Anggraini</h3>
+                        <p class="gallery-desc">Serah terima Yamaha Gear 2021</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1620137220015-43a465d4b3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdG9yY3ljbGUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Ahmad Rizky</h3>
+                        <p class="gallery-desc">Serah terima Suzuki GSX 150</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621891333819-00e72546f7ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdG9yY3ljbGUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Rina Wijaya</h3>
+                        <p class="gallery-desc">Serah terima Honda Vario 2020</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1620137220008-c93a1e8baf1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1vdG9yY3ljbGUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Joko Prasetyo</h3>
+                        <p class="gallery-desc">Serah terima Honda CB Verza 2019</p>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1567767292271-13e59ef94b2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vdG9yY3ljbGUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Serah Terima Unit" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Sari Dewi</h3>
+                        <p class="gallery-desc">Serah terima Honda Sonic 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Gallery -->
+    <div class="modal" id="galleryModal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Temukan Motor Impian Anda</h2>
+            <p>Jelajahi koleksi motor bekas berkualitas kami dan dapatkan penawaran terbaik hari ini</p>
+            <a href="#products" class="btn">Lihat Katalog Lengkap</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Tentang Arahman Motor</h3>
+                    <p>Arahman Motor adalah showroom motor bekas terpercaya yang menyediakan berbagai pilihan motor bekas berkualitas dengan harga terjangkau.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Katalog Motor</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Kontak Kami</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Motor Bekas No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@arahmanmotor.com</li>
+                        <li><i class="fas fa-clock"></i> Senin - Sabtu: 09.00 - 17.00</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Berlangganan newsletter kami untuk mendapatkan informasi terbaru tentang penawaran spesial</p>
+                    <form>
+                        <input type="email" placeholder="Alamat Email Anda" required>
+                        <button type="submit" class="btn">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Arahman Motor - Showroom Motor Bekas Terpercaya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
